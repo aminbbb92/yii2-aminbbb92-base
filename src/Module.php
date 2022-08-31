@@ -1,40 +1,40 @@
 <?php
 /**
- * Created by Navatech.
+ * Created by aminbbb92.
  * @project yii2-basic
  * @author  Phuong
  * @email   phuong17889[at]gmail.com
  * @date    5/4/2016
  * @time    3:43 PM
  */
-namespace navatech\base;
+namespace aminbbb92\base;
 
 use Yii;
 
 class Module extends \yii\base\Module {
 
 	/**
-	 * Check if has navatech\multilanguage
+	 * Check if has aminbbb92\multilanguage
 	 * @return bool
 	 */
 	public static function hasMultiLanguage() {
-		return (Yii::$app->hasModule('language') && Yii::$app->getModule('language') instanceof \navatech\language\Module);
+		return (Yii::$app->hasModule('language') && Yii::$app->getModule('language') instanceof \aminbbb92\language\Module);
 	}
 
 	/**
-	 * Check if has navatech\setting
+	 * Check if has aminbbb92\setting
 	 * @return bool
 	 */
 	public static function hasSetting() {
-		return (Yii::$app->hasModule('setting') && Yii::$app->getModule('setting') instanceof \navatech\setting\Module && in_array('setting', array_keys(Yii::$app->components)) && Yii::$app->components['setting']['class'] == \navatech\setting\Setting::className());
+		return (Yii::$app->hasModule('setting') && Yii::$app->getModule('setting') instanceof \aminbbb92\setting\Module && in_array('setting', array_keys(Yii::$app->components)) && Yii::$app->components['setting']['class'] == \aminbbb92\setting\Setting::className());
 	}
 
 	/**
-	 * Check if has navatech\role
+	 * Check if has aminbbb92\role
 	 * @return bool
 	 */
 	public static function hasUserRole() {
-		return (Yii::$app->hasModule('role') && Yii::$app->getModule('role') instanceof \navatech\role\Module);
+		return (Yii::$app->hasModule('role') && Yii::$app->getModule('role') instanceof \aminbbb92\role\Module);
 	}
 
 	/**

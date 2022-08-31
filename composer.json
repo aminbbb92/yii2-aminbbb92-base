@@ -1,22 +1,22 @@
 {
-	"name" : "navatech/yii2-navatech-base",
-	"description" : "Yii2 Base for navatech application",
+	"name" : "aminbbb92/yii2-aminbbb92-base",
+	"description" : "Yii2 Base for aminbbb92 application",
 	"type" : "yii2-extension",
 	"keywords" : [
 		"yii2",
 		"extension",
-		"navatech",
+		"aminbbb92",
 		"base"
 	],
 	"license" : "MIT",
-	"homepage" : "https://navatech.vn",
+	"homepage" : "https://aminbbb92.vn",
 	"support" : {
-		"source" : "https://github.com/navatech/yii2-navatech-base"
+		"source" : "https://github.com/aminbbb92/yii2-aminbbb92-base"
 	},
 	"authors" : [
 		{
-			"name" : "Le Phuong",
-			"email" : "phuong17889@gmail.com"
+			"name" : "Amin Shafiee",
+			"email" : "amin.shafiee.d@gmail.com"
 		}
 	],
 	"require" : {
@@ -25,7 +25,7 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"navatech\\base\\" : "src/"
+			"aminbbb92\\base\\" : "src/"
 		}
 	}
 }

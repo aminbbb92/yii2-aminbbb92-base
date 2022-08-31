@@ -1,12 +1,12 @@
 <?php
 namespace yii\web;
 
-use navatech\setting\Setting;
+use aminbbb92\setting\Setting;
 use yii\base\Request;
 use yii\base\Response;
 
 /**
- * Created by Navatech.
+ * Created by aminbbb92.
  * @project yii2-advanced
  * @author  Phuong
  * @email   notteen[at]gmail.com
